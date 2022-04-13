@@ -4,7 +4,7 @@ input.onButtonPressed(Button.A, function () {
     for (let index = 0; index < 15; index++) {
         strip.rotate(1)
         strip.show()
-        basic.pause(2000)
+        basic.pause(500)
     }
 })
 input.onButtonPressed(Button.B, function () {
